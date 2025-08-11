@@ -1,0 +1,131 @@
+:root {
+  --bg: #0f1115;
+  --card: #5f6b77;
+  --ink: #e8e8e8;
+  --brand: #1fd6ff;
+  --brand2: #0eb7e0;
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  padding: 28px
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: .5px
+}
+
+h1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #2b3945;
+  margin-top: 12px;
+  width: 75%
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto
+}
+
+.card {
+  background: #6c7a88;
+  background: linear-gradient(180deg, #6b7580 0%, #5d6874 100%);
+  border-radius: 12px;
+  padding: 22px;
+  max-width: 520px;
+  margin: 18px auto;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, .35)
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 12px
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0
+}
+
+input,
+select,
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 20px;
+  outline: none
+}
+
+input,
+select {
+  background: #f5f7fb;
+  color: #111
+}
+
+button {
+  background: linear-gradient(180deg, var(--brand), var(--brand2));
+  color: #06222b;
+  font-weight: 800;
+  cursor: pointer
+}
+
+button:disabled {
+  opacity: .6;
+  cursor: not-allowed
+}
+
+.result {
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 12px
+}
+
+.error {
+  display: none;
+  margin: 10px auto 0;
+  max-width: 520px;
+  background: #2a0000;
+  color: #ffd9d9;
+  border: 1px solid #5a1b1b;
+  padding: 10px 14px;
+  border-radius: 10px
+}
+
+.status {
+  text-align: center;
+  opacity: .9;
+  min-height: 1.2em;
+  margin: 8px 0
+}
+
+.chart-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  height: 420px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .35);
+  margin: 22px auto
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important
+}
