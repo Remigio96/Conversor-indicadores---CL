@@ -63,7 +63,8 @@ git clone git@github.com:Remigio96/Conversor-indicadores---CL.git
 
 ## Live Preview
 <img width="1042" height="902" alt="image" src="https://github.com/user-attachments/assets/da738554-157c-4d7d-ac78-dea4003b76a7" />
-👉https://remigio96.github.io/Conversor-indicadores---CL/👈
+
+https://remigio96.github.io/Conversor-indicadores---CL/
 
 ## Modo offline
 
